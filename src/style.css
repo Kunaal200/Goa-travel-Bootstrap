@@ -1,0 +1,45 @@
+.head {
+    background-image: url(https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-size: cover;
+    height: 620px;
+}
+
+.horizontal-line {
+    width: 35%;
+    border: 2px solid blue;
+    margin: 55px auto auto;
+}
+
+footer p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.head .center-button {
+    background-color: #3751B5;
+}
+
+.portrait-img {
+    height: 300px;
+}
+
+.icon-color {
+    color: #8a9cff;
+}
+
+.learn-more .subscribe {
+    background-color: #3751B5;
+}
+
+.learn-more{
+    height: 400px;
+}
+.grey-background {
+    background-color: #F5F5F5;
+}
+
+footer {
+    background-color: #607D8B;
+    height: 50px;
+}

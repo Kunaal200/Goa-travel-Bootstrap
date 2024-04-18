@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap w/ Vite</title>
+    <script type="module" src="./js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid mx-auto head">
+            <nav class="navbar navbar-expand-lg bg-transparent py-4 px-5">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-3" href="#">Goa Travel</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tours</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="h-75 center d-flex justify-content-center flex-column align-items-center text-white">
+                <h1 class="display-2 fw-semibold">Goa Travel</h1>
+                <p >Unmissable Tours Around Beautiful Goa</p>
+                <button type="button" class="btn center-button px-4 py-2 text-white">CONTACT US NOW</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- tour section  -->
+        <div class="container-fluid flex-column d-flex justify-content-center align-items-center ">
+
+            <div class="d-flex flex-column w-50 mt-5">
+                <h2 class="text-center">Some Of Our Destinations</h2>
+                <p class="text-center">Love the surf and sand? History buff? Nature enthusiast? Thrill Seeker intrested
+                    in water sport.
+                    Dolphine
+                    sightseeing, Backwater kayaking, Parasailing, and scuba diving? Goa has something for everyone
+                </p>
+                <hr class="horizontal-line">
+            </div>
+
+            <div class="row pt-4 pb-4 d-flex align-items-center justify-content-center w-75">
+                <img class="col-4 portrait-img "
+                    src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+                <img class="col-8 portrait-img"
+                    src="https://images.pexels.com/photos/4430322/pexels-photo-4430322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="">
+            </div>
+
+            <div class="row d-flex align-items-center justify-content-center mb-5 w-75">
+                <img class="col-8 portrait-img"
+                    src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+                <img class="col-4 portrait-img"
+                    src="https://plus.unsplash.com/premium_photo-1664361480872-6416aab14696?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dHJhdmVsfGVufDB8fDB8fHww"
+                    alt="">
+            </div>
+
+            <div class="grey-background flex-column d-flex align-items-center justify-content-center">
+            <div class="d-flex  flex-column w-50 mt-5 ">
+                <h2 class="text-center">Tour Packages</h2>
+                <p class="text-center">
+                    We offer a variety of sightseeing and immersion packages. Weather you want to experience the
+                    rich
+                    culture, immerse yourself in it's natural beauty, or have a relaxing visit, we've got the
+                    perfect
+                    vacation for you
+                </p>
+                <hr class="horizontal-line">
+            </div>
+            <div class="container w-75 mb-5">
+                <div class="row mb-5 text-center d-flex justify-content-between">
+                    <div class="col-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                            class="bi bi-compass icon-color" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016m6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" />
+                            <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
+                        </svg>
+                        <h2>Guided Tours</h2>
+                        <p>Looking for the complete experience? Take a tour with one of our experts.
+                            Visit the
+                            beautiful old temples and churches and the numerous beaches. Sample the local dishes and
+                            visit various health or spa retreats to pamper yourself on your vacation.</p>
+                    </div>
+                    <div class="col-4 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                            class="bi bi-camera-fill icon-color" viewBox="0 0 16 16">
+                            <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                            <path
+                                d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0" />
+                        </svg>
+                        <h2>Photo Tours</h2>
+                        <p> Want to experience nature's beauty without all the trekking. Walking and waiting? Take a
+                            photo tour on one of our luxury buses.</p>
+                    </div>
+                </div>
+                <div class="row text-center d-flex justify-content-between">
+                    <div class="col-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                            class="bi bi-bicycle icon-color" viewBox="0 0 16 16">
+                            <path
+                                d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5m1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139zM8 9.057 9.598 6.5H6.402zM4.937 9.5a2 2 0 0 0-.487-.877l-.548.877zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53z" />
+                        </svg>
+                        <h2>Bike Tours</h2>
+                        <p>A fun way to experience the local atmosphere while seeing as much of Goa as
+                            you can. We'll
+                            provide the bikes and lunch too!</p>
+                    </div>
+                    <div class="col-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                            class="bi bi-binoculars-fill icon-color" viewBox="0 0 16 16">
+                            <path
+                                d="M4.5 1A1.5 1.5 0 0 0 3 2.5V3h4v-.5A1.5 1.5 0 0 0 5.5 1zM7 4v1h2V4h4v.882a.5.5 0 0 0 .276.447l.895.447A1.5 1.5 0 0 1 15 7.118V13H9v-1.5a.5.5 0 0 1 .146-.354l.854-.853V9.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v.793l.854.853A.5.5 0 0 1 7 11.5V13H1V7.118a1.5 1.5 0 0 1 .83-1.342l.894-.447A.5.5 0 0 0 3 4.882V4zM1 14v.5A1.5 1.5 0 0 0 2.5 16h3A1.5 1.5 0 0 0 7 14.5V14zm8 0v.5a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5V14zm4-11H9v-.5A1.5 1.5 0 0 1 10.5 1h1A1.5 1.5 0 0 1 13 2.5z" />
+                        </svg>
+                        <h2>Safari Tours</h2>
+                        <p>Looking to see some wildlife? We offer fantastic safari trips! Spend a day
+                            out cruising
+                            along the back waters of the Zuari River in a giant canoe. returning to camp in the
+                            evening
+                            to retell your adventures next to the campfire!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- testimonial section  -->
+
+        <div class="container-fluid d-flex align-items-center flex-column">
+            <h2 class="py-5">Testimonials From Goa Travellers</h2>
+            <hr class="horizontal-line">
+            <div class="testimonial-figures w-75">
+                <figure class="text-center py-4">
+                    <blockquote class="blockquote">
+                        <p> A most wonderful place although I gather greatly different to northern India-the people wew
+                            lovely(although immense haggling which was fun when we caught on)stunning and must go back!</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        -Amanda D'Cunha
+                    </figcaption>
+                </figure>
+                <figure class="text-center py-4">
+                    <blockquote class="blockquote">
+                        <p> A most wonderful place although I gather greatly different to northern India-the people wew
+                            lovely(although immense haggling which was fun when we caught on)stunning and must go back!</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        -Angelo Fernandes
+                    </figcaption>
+                </figure>
+                <figure class="text-center py-4">
+                    <blockquote class="blockquote">
+                        <p> Very well framed and arranged tour packages, I find everything in it like delicious
+                            food,spacious rooms,well maintained,disciplined behaviours,well planned vehicles for site
+                            scenes. Nothing more to say, contain all things for a travelers. </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        -Diana Monteiro
+                    </figcaption>
+                </figure>
+            </div>
+          
+        </div>
+
+        <!-- learn more  -->
+
+        <div class="container-fluid learn-more grey-background d-flex align-items-center justify-content-center flex-column">
+            <div class="text-center d-flex justify-content-center flex-column align-items-center">
+                <h4>Learn More</h4>
+                <p class="w-50">Want to know about upcoming specials, and value deals? Just sign up for our mailing list.
+                    We'll
+                    keep you
+                    informed on new tour packages and offeering. No spam, we promise!</p>
+                <hr class="horizontal-line">
+            </div>
+         
+            <form class="d-flex my-5" role="search">
+                <input class="form-control me-2 w-100" type="search" placeholder="example@email.com"
+                    aria-label="Search">
+                <button class="btn center-button subscribe text-white w-100" type="submit">SUBSCRIBE NOW</button>
+            </form>
+        </div>
+    </main>
+    <footer class="d-flex justify-content-between align-items-center text-white px-3">
+        <div>
+            <p>IMAGES COURTESY OF PHOTOS FOR CLASS</p>
+        </div>
+        <div> <P>VISIT GOA AND HAVE A GOOD TIME DOING IT. WHEN YOU USE ONE AND MORE OF OUR TOURS</P>
+        </div>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-snapchat" viewBox="0 0 16 16">
+                <path d="M15.943 11.526c-.111-.303-.323-.465-.564-.599a1 1 0 0 0-.123-.064l-.219-.111c-.752-.399-1.339-.902-1.746-1.498a3.4 3.4 0 0 1-.3-.531c-.034-.1-.032-.156-.008-.207a.3.3 0 0 1 .097-.1c.129-.086.262-.173.352-.231.162-.104.289-.187.371-.245.309-.216.525-.446.66-.702a1.4 1.4 0 0 0 .069-1.16c-.205-.538-.713-.872-1.329-.872a1.8 1.8 0 0 0-.487.065c.006-.368-.002-.757-.035-1.139-.116-1.344-.587-2.048-1.077-2.61a4.3 4.3 0 0 0-1.095-.881C9.764.216 8.92 0 7.999 0s-1.76.216-2.505.641c-.412.232-.782.53-1.097.883-.49.562-.96 1.267-1.077 2.61-.033.382-.04.772-.036 1.138a1.8 1.8 0 0 0-.487-.065c-.615 0-1.124.335-1.328.873a1.4 1.4 0 0 0 .067 1.161c.136.256.352.486.66.701.082.058.21.14.371.246l.339.221a.4.4 0 0 1 .109.11c.026.053.027.11-.012.217a3.4 3.4 0 0 1-.295.52c-.398.583-.968 1.077-1.696 1.472-.385.204-.786.34-.955.8-.128.348-.044.743.28 1.075q.18.189.409.31a4.4 4.4 0 0 0 1 .4.7.7 0 0 1 .202.09c.118.104.102.26.259.488q.12.178.296.3c.33.229.701.243 1.095.258.355.014.758.03 1.217.18.19.064.389.186.618.328.55.338 1.305.802 2.566.802 1.262 0 2.02-.466 2.576-.806.227-.14.424-.26.609-.321.46-.152.863-.168 1.218-.181.393-.015.764-.03 1.095-.258a1.14 1.14 0 0 0 .336-.368c.114-.192.11-.327.217-.42a.6.6 0 0 1 .19-.087 4.5 4.5 0 0 0 1.014-.404c.16-.087.306-.2.429-.336l.004-.005c.304-.325.38-.709.256-1.047m-1.121.602c-.684.378-1.139.337-1.493.565-.3.193-.122.61-.34.76-.269.186-1.061-.012-2.085.326-.845.279-1.384 1.082-2.903 1.082s-2.045-.801-2.904-1.084c-1.022-.338-1.816-.14-2.084-.325-.218-.15-.041-.568-.341-.761-.354-.228-.809-.187-1.492-.563-.436-.24-.189-.39-.044-.46 2.478-1.199 2.873-3.05 2.89-3.188.022-.166.045-.297-.138-.466-.177-.164-.962-.65-1.18-.802-.36-.252-.52-.503-.402-.812.082-.214.281-.295.49-.295a1 1 0 0 1 .197.022c.396.086.78.285 1.002.338q.04.01.082.011c.118 0 .16-.06.152-.195-.026-.433-.087-1.277-.019-2.066.094-1.084.444-1.622.859-2.097.2-.229 1.137-1.22 2.93-1.22 1.792 0 2.732.987 2.931 1.215.416.475.766 1.013.859 2.098.068.788.009 1.632-.019 2.065-.01.142.034.195.152.195a.4.4 0 0 0 .082-.01c.222-.054.607-.253 1.002-.338a1 1 0 0 1 .197-.023c.21 0 .409.082.49.295.117.309-.04.56-.401.812-.218.152-1.003.638-1.18.802-.184.169-.16.3-.139.466.018.14.413 1.991 2.89 3.189.147.073.394.222-.041.464"/>
+              </svg>
+        </div>
+    </footer>
+</body>
+
+</html>
